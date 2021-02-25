@@ -1,0 +1,5 @@
+h2, .first-box, .second-box {
+    border : 3px solid black;
+    text-align: left;
+    position: relative;
+}

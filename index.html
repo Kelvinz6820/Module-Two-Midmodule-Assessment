@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Rolling</title>
+    <script src="diceRolling.js" defer></script>
+    <link rel="stylesheet" href="diceRolling.css">
+</head>
+<body>
+    <h1>Dice Roller</h1><br>
+    Number of dice: <input type="number" id = "dice-input" placeholder = "Enter a number">
+    <button type = "submit" id = "dice-button" onclick="diceRoll()">Roll the dice!</button>
+    <div class ="first-box">
+        <p id="invalid"></p>
+        <p id="dice-para"></p>
+        <p id="sum-para">Sum = </p>
+    </div>
+    <div class = "second-box">
+        <h1 id="history">History</h1>
+        <ul id="dice-history">
+        </ul>
+    </div>
+</body>
+</html>
