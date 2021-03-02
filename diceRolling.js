@@ -1,3 +1,7 @@
+//smart goal: after completing my lab, I want to rewrite the variables and find ways to shorten my code by at least 5 lines.
+//stretch goal: after completing my lab, I want to test of code without npm test and create multiple user instances for it.
+
+
 let diceOptions = ['&#9856', '&#9857', '&#9858', '&#9859', '&#9860', '&#9861']
 let historyCounter = 0
 let recordedHistory = []
